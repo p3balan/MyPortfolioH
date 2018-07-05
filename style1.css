@@ -105,7 +105,7 @@ h4
 
 body
 {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(website.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(website.jpg);
     height: auto;
     background-size: cover;
     /* background-position: center; */
