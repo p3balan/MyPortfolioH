@@ -19,6 +19,7 @@ body
     float: right;
     list-style: none;
     margin-top: 30px;
+    transition: all .5s;
 }
 .main-nav li
 {
@@ -27,13 +28,17 @@ body
 
 .main-nav li.active a
 {
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s
     
 }
 
 .main-nav li a:hover
 {
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s
 }
 
 
@@ -44,6 +49,7 @@ body
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
+    
 }
 
 .title
@@ -121,6 +127,15 @@ body
     height: auto;
 }
 
+.copywrite {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    
+    
+}
 
 
 

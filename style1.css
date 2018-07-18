@@ -19,6 +19,7 @@ body
     float: right;
     list-style: none;
     margin-top: 30px;
+    transition: all .5s;
 }
 .main-nav li
 {
@@ -27,13 +28,17 @@ body
 
 .main-nav li.active a
 {
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s
     
 }
 
 .main-nav li a:hover
 {
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s
 }
 
 
@@ -44,6 +49,7 @@ body
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
+    
 }
 
 .title
@@ -135,17 +141,23 @@ body
     
     list-style: none;
     margin-top: 30px;
-    margin-left: 0px
+    margin-left: 25px;
+    transition: all .5s;
+    
 }
 
 .artist li
 {
     display: inline-block;
+   
 }
 
 .artist li a:hover
 {
-    border: 1px solid white;
+    border: 2px solid white;
+    background: black;
+    border-radius: 35px;
+    transition: all .5s
 }
 
 
@@ -169,18 +181,121 @@ body
     border-color: white;
     border-style: ridge;
 }
+.pics1
+{
+    height: 30%;
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 57px;
+    border: 8px;
+    border-color: white;
+    border-style: ridge;
+}
+.pics2
+{
+    height: 30%;
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 110px;
+    border: 8px;
+    border-color: white;
+    border-style: ridge;
+}
+.pics3
+{
+    height: 30%;
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: 8px;
+    border-color: white;
+    border-style: ridge;
+}
+
+.favorite {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.favorite li{
+    display: inline-block;
+
+}
+
+.favorite li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 90px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.favorite li {
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px;
+
+    
+    
+}
+.favorite li ol {
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 0px;
+    padding: 10px;
+
+    
+}
+.drake li {
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px;
+
+   
+
+    
+}
+.drake li ol {
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
+.copywrite {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50;
+    margin-bottom: 10px;
+    
+    
+}
 
 
