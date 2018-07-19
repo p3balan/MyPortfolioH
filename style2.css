@@ -78,7 +78,7 @@ h2
     text-transform: capitalize;
     font-size: 40px;
     text-align: left;
-    margin-top: 25px;
+    margin-top: 105px;
     
 }
 p
@@ -116,7 +116,7 @@ body
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     
 }
 
@@ -256,6 +256,23 @@ body
     
 }
 
+.projects {
+
+    transform: rotate(90deg);
+    margin-left: 700px;
+    margin-top: -1500px;
+    font-size: 50
+    
+
+}
+
+h6 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 300px;
+    text-align: left;
+    margin-top: 25px;
+}
 
 
 
