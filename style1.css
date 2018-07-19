@@ -67,8 +67,6 @@ body
     margin-top: 120px;
     width: 1200px;
     
-    
-
 }
 
 
@@ -78,7 +76,7 @@ h1
     text-transform: uppercase;
     font-size: 50px;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 80px;
     text-decoration: underline 
     
 }
@@ -88,7 +86,7 @@ h2
     text-transform: capitalize;
     font-size: 40px;
     text-align: left;
-    margin-top: 25px;
+    margin-top: 200px;
     
 }
 p
@@ -97,6 +95,7 @@ p
     font-size: 25px;
     text-align: left;
     margin-top: 25px;
+    
     
 }
 h3
@@ -141,7 +140,7 @@ body
     
     list-style: none;
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 15px;
     transition: all .5s;
     
 }
@@ -298,4 +297,24 @@ body
     
 }
 
+.pic {
+
+    height: 50%;
+    width: 20%;
+    margin-top: -910px;
+    margin-right: 170px;
+    float: right;
+    
+    border: 8px;
+    border-color: white;
+    border-style: ridge;
+    
+    
+}
+
+.BBall {
+    margin-left: 1000px;
+    margin-bottom: -200px;
+    
+}
 

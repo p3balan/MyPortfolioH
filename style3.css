@@ -156,7 +156,7 @@ body
     margin-top: -450px;
     margin-left: 370px;
     position: relative; 
-    z-index: 100;
+    
    
 }
 
@@ -164,8 +164,8 @@ body
 {
     height: 60%;
     width: 25%;
-    margin-top: -370px;
-    margin-left: 750px;
+    margin-top: -550px;
+    margin-left: 800px;
     position: relative; 
     z-index: 100;
     border: 8px;
@@ -173,8 +173,40 @@ body
     border-style: ridge;
    
 }
+.pics4
+{
+    height: 6%;
+    width: 3.5%;
+    margin-top: -320px;
+    margin-left: 380px;
+    position: relative;
+    
+   
+}
+.pics5
+{
+    height: 7%;
+    width: 4%;
+    margin-top: -200px;
+    margin-left: 375px;
+    position: relative; 
+    z-index: 100;
+   
+}
+.pics6
+{
+    height: 7%;
+    width: 4%;
+    margin-top: -85px;
+    margin-left: 375px;
+    position: relative; 
+    z-index: 100;
+   
+}
 
-
+ol li a {
+    text-decoration: none;
+}
 
 ol {
     
@@ -194,7 +226,7 @@ ol {
     border-radius: 35px;
     overflow: hidden;
     width: 210px;
-    
+   
 
 }
 
@@ -208,7 +240,7 @@ ol:before{
     background: white;
     transition: .5s ease-in-out;
     border-radius: 35px;
-
+    text-decoration: none;
 
 
 }
@@ -216,17 +248,19 @@ ol:before{
 ol:hover:before{
     left: 0;
     z-index: -1;
-
+    text-decoration: none;
 }
 span{
     color: #fff;
     transition: .5s ease-in-out;
     z-index: -1;
+    text-decoration: none;
 
     
 }
 ol:hover span{
     color: #262626;
+    text-decoration: none;
 
 }
 
@@ -235,7 +269,7 @@ ol:hover span{
     color: white;
     font-size: 18px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 33px;
     
     
 }

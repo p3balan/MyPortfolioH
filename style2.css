@@ -131,12 +131,130 @@ body
     color: white;
     font-size: 18px;
     text-align: center;
-    margin-top: 400px;
+    margin-top: 100px;
     margin-bottom: 10px;
     
     
 }
 
+.connect4 {
+    text-decoration: none;
+    
+}
+
+.connect4 li a {
+    color: white;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-top: 20;
+    text-decoration: none;
+    padding: 10px;
+
+ 
+}
+
+.connect4 li a:hover {
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s
+}
+
+.connect4 li.active a
+{
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s
+    
+}
+
+.connect {
+   margin-top: 280; 
+   height: 50%;
+   width: 40%;
+}
+
+.ttt {
+    margin-top: 80;
+    margin-left: -185;
+    height: 50%;
+    width: 40%;
+}
+
+.Tic {
+    text-decoration: none;
+    
+}
+
+.Tic li a {
+    color: white;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-top: 20;
+    text-decoration: none;
+    padding: 10px;
+ 
+}
+
+.Tic li a:hover {
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s;
+    padding: 10px;
+
+}
+
+.Tic li.active a
+{
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s;
+    padding: 10px;
+
+    
+}
+
+.click {
+    margin-top: 100;
+    margin-left: -180;
+    height: 40%;
+    width: 30%;
+}
+
+.click1 {
+    text-decoration: none;
+    
+}
+
+.click1 li a {
+    color: white;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-top: 20;
+    text-decoration: none;
+    padding: 10px;
+ 
+}
+
+.click1 li a:hover {
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s;
+    padding: 10px;
+
+}
+
+.click1 li.active a
+{
+    border: 2px solid white;
+    border-radius: 35px;
+    transition: all .5s;
+    padding: 10px;
+
+    
+}
 
 
 
